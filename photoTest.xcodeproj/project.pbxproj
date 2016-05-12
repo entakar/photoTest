@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF39A31A1CE329DB001003CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39A3191CE329DB001003CC /* AppDelegate.swift */; };
+		EF39A31C1CE329DB001003CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39A31B1CE329DB001003CC /* ViewController.swift */; };
+		EF39A31F1CE329DB001003CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF39A31D1CE329DB001003CC /* Main.storyboard */; };
+		EF39A3211CE329DB001003CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF39A3201CE329DB001003CC /* Assets.xcassets */; };
+		EF39A3241CE329DB001003CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF39A3221CE329DB001003CC /* LaunchScreen.storyboard */; };
+		EF39A32F1CE329DB001003CC /* photoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39A32E1CE329DB001003CC /* photoTestTests.swift */; };
+		EF39A33A1CE329DB001003CC /* photoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39A3391CE329DB001003CC /* photoTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF39A32B1CE329DB001003CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF39A30E1CE329DB001003CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF39A3151CE329DB001003CC;
+			remoteInfo = photoTest;
+		};
+		EF39A3361CE329DB001003CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF39A30E1CE329DB001003CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF39A3151CE329DB001003CC;
+			remoteInfo = photoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF39A3161CE329DB001003CC /* photoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39A3191CE329DB001003CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF39A31B1CE329DB001003CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF39A31E1CE329DB001003CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF39A3201CE329DB001003CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF39A3231CE329DB001003CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF39A3251CE329DB001003CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF39A32A1CE329DB001003CC /* photoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39A32E1CE329DB001003CC /* photoTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoTestTests.swift; sourceTree = "<group>"; };
+		EF39A3301CE329DB001003CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF39A3351CE329DB001003CC /* photoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39A3391CE329DB001003CC /* photoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoTestUITests.swift; sourceTree = "<group>"; };
+		EF39A33B1CE329DB001003CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF39A3131CE329DB001003CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39A3271CE329DB001003CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39A3321CE329DB001003CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF39A30D1CE329DB001003CC = {
+			isa = PBXGroup;
+			children = (
+				EF39A3181CE329DB001003CC /* photoTest */,
+				EF39A32D1CE329DB001003CC /* photoTestTests */,
+				EF39A3381CE329DB001003CC /* photoTestUITests */,
+				EF39A3171CE329DB001003CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF39A3171CE329DB001003CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF39A3161CE329DB001003CC /* photoTest.app */,
+				EF39A32A1CE329DB001003CC /* photoTestTests.xctest */,
+				EF39A3351CE329DB001003CC /* photoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF39A3181CE329DB001003CC /* photoTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF39A3191CE329DB001003CC /* AppDelegate.swift */,
+				EF39A31B1CE329DB001003CC /* ViewController.swift */,
+				EF39A31D1CE329DB001003CC /* Main.storyboard */,
+				EF39A3201CE329DB001003CC /* Assets.xcassets */,
+				EF39A3221CE329DB001003CC /* LaunchScreen.storyboard */,
+				EF39A3251CE329DB001003CC /* Info.plist */,
+			);
+			path = photoTest;
+			sourceTree = "<group>";
+		};
+		EF39A32D1CE329DB001003CC /* photoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF39A32E1CE329DB001003CC /* photoTestTests.swift */,
+				EF39A3301CE329DB001003CC /* Info.plist */,
+			);
+			path = photoTestTests;
+			sourceTree = "<group>";
+		};
+		EF39A3381CE329DB001003CC /* photoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF39A3391CE329DB001003CC /* photoTestUITests.swift */,
+				EF39A33B1CE329DB001003CC /* Info.plist */,
+			);
+			path = photoTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF39A3151CE329DB001003CC /* photoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF39A33E1CE329DB001003CC /* Build configuration list for PBXNativeTarget "photoTest" */;
+			buildPhases = (
+				EF39A3121CE329DB001003CC /* Sources */,
+				EF39A3131CE329DB001003CC /* Frameworks */,
+				EF39A3141CE329DB001003CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoTest;
+			productName = photoTest;
+			productReference = EF39A3161CE329DB001003CC /* photoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF39A3291CE329DB001003CC /* photoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF39A3411CE329DB001003CC /* Build configuration list for PBXNativeTarget "photoTestTests" */;
+			buildPhases = (
+				EF39A3261CE329DB001003CC /* Sources */,
+				EF39A3271CE329DB001003CC /* Frameworks */,
+				EF39A3281CE329DB001003CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF39A32C1CE329DB001003CC /* PBXTargetDependency */,
+			);
+			name = photoTestTests;
+			productName = photoTestTests;
+			productReference = EF39A32A1CE329DB001003CC /* photoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF39A3341CE329DB001003CC /* photoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF39A3441CE329DB001003CC /* Build configuration list for PBXNativeTarget "photoTestUITests" */;
+			buildPhases = (
+				EF39A3311CE329DB001003CC /* Sources */,
+				EF39A3321CE329DB001003CC /* Frameworks */,
+				EF39A3331CE329DB001003CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF39A3371CE329DB001003CC /* PBXTargetDependency */,
+			);
+			name = photoTestUITests;
+			productName = photoTestUITests;
+			productReference = EF39A3351CE329DB001003CC /* photoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF39A30E1CE329DB001003CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tak;
+				TargetAttributes = {
+					EF39A3151CE329DB001003CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7YKRKJA4VT;
+					};
+					EF39A3291CE329DB001003CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7YKRKJA4VT;
+						TestTargetID = EF39A3151CE329DB001003CC;
+					};
+					EF39A3341CE329DB001003CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7YKRKJA4VT;
+						TestTargetID = EF39A3151CE329DB001003CC;
+					};
+				};
+			};
+			buildConfigurationList = EF39A3111CE329DB001003CC /* Build configuration list for PBXProject "photoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF39A30D1CE329DB001003CC;
+			productRefGroup = EF39A3171CE329DB001003CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF39A3151CE329DB001003CC /* photoTest */,
+				EF39A3291CE329DB001003CC /* photoTestTests */,
+				EF39A3341CE329DB001003CC /* photoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF39A3141CE329DB001003CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39A3241CE329DB001003CC /* LaunchScreen.storyboard in Resources */,
+				EF39A3211CE329DB001003CC /* Assets.xcassets in Resources */,
+				EF39A31F1CE329DB001003CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39A3281CE329DB001003CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39A3331CE329DB001003CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF39A3121CE329DB001003CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39A31C1CE329DB001003CC /* ViewController.swift in Sources */,
+				EF39A31A1CE329DB001003CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39A3261CE329DB001003CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39A32F1CE329DB001003CC /* photoTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF39A3311CE329DB001003CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF39A33A1CE329DB001003CC /* photoTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF39A32C1CE329DB001003CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF39A3151CE329DB001003CC /* photoTest */;
+			targetProxy = EF39A32B1CE329DB001003CC /* PBXContainerItemProxy */;
+		};
+		EF39A3371CE329DB001003CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF39A3151CE329DB001003CC /* photoTest */;
+			targetProxy = EF39A3361CE329DB001003CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF39A31D1CE329DB001003CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF39A31E1CE329DB001003CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF39A3221CE329DB001003CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF39A3231CE329DB001003CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF39A33C1CE329DB001003CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF39A33D1CE329DB001003CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF39A33F1CE329DB001003CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = photoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.photoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF39A3401CE329DB001003CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = photoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.photoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF39A3421CE329DB001003CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = photoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.photoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photoTest.app/photoTest";
+			};
+			name = Debug;
+		};
+		EF39A3431CE329DB001003CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = photoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.photoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photoTest.app/photoTest";
+			};
+			name = Release;
+		};
+		EF39A3451CE329DB001003CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = photoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.photoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = photoTest;
+			};
+			name = Debug;
+		};
+		EF39A3461CE329DB001003CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = photoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.photoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = photoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF39A3111CE329DB001003CC /* Build configuration list for PBXProject "photoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39A33C1CE329DB001003CC /* Debug */,
+				EF39A33D1CE329DB001003CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF39A33E1CE329DB001003CC /* Build configuration list for PBXNativeTarget "photoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39A33F1CE329DB001003CC /* Debug */,
+				EF39A3401CE329DB001003CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF39A3411CE329DB001003CC /* Build configuration list for PBXNativeTarget "photoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39A3421CE329DB001003CC /* Debug */,
+				EF39A3431CE329DB001003CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF39A3441CE329DB001003CC /* Build configuration list for PBXNativeTarget "photoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF39A3451CE329DB001003CC /* Debug */,
+				EF39A3461CE329DB001003CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF39A30E1CE329DB001003CC /* Project object */;
+}
